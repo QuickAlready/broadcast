@@ -1,3 +1,6 @@
 dependencies{
-	compile project(':travelstep-common')
+	compile libraries.mybatis_spring
+	compile libraries.mybatis_generator
+	compile libraries.mybatis_generator_plugins
+	compile libraries.spring_core
 }
