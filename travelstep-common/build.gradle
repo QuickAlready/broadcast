@@ -6,6 +6,8 @@ dependencies{
 	compile libraries.spring_expression
 	compile libraries.spring_web
 	compile libraries.spring_webmvc
+	compile libraries.jackson_core_asl
+	compile libraries.jackson_mapper_asl
 
 	compile libraries.commons_lang3
 	compile libraries.servlet_api
